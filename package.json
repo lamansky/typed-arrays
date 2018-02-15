@@ -1,0 +1,41 @@
+{
+  "name": "typed-arrays",
+  "version": "1.0.0",
+  "description": "Returns an array of all Typed Array classes.",
+  "keywords": [
+    "typed array",
+    "classes",
+    "Int8Array",
+    "Uint8Array",
+    "Uint8ClampedArray",
+    "Int16Array",
+    "Uint16Array",
+    "Int32Array",
+    "Uint32Array",
+    "Float32Array",
+    "Float64Array"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/typed-arrays",
+  "repository": "lamansky/typed-arrays",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
